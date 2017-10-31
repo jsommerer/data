@@ -7,3 +7,8 @@ ibdata1
 ib_logfile0
 ibdata1
 buymo/users.ibd
+mysql.err
+msql.pid
+show.log
+buymo/cache.idb
+buymo/cache_bootstrap.idb
