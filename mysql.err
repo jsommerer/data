@@ -573,3 +573,69 @@ InnoDB: Your database may be corrupt or you may have copied the InnoDB
 InnoDB: tablespace but not the InnoDB log files. See
 InnoDB: http://dev.mysql.com/doc/refman/5.5/en/forcing-innodb-recovery.html
 InnoDB: for more information.
+171101 23:43:53 [Note] Plugin 'FEDERATED' is disabled.
+171101 23:43:53 InnoDB: The InnoDB memory heap is disabled
+171101 23:43:53 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+171101 23:43:53 InnoDB: Compressed tables use zlib 1.2.3
+171101 23:43:53 InnoDB: Initializing buffer pool, size = 512.0M
+171101 23:43:53 InnoDB: Completed initialization of buffer pool
+171101 23:43:53 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+171101 23:43:53  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+171101 23:43:59  InnoDB: Waiting for the background threads to start
+171101 23:44:00 InnoDB: 5.5.48 started; log sequence number 191671160
+171101 23:44:00 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33067
+171101 23:44:00 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+171101 23:44:00 [Note] Server socket created on IP: '0.0.0.0'.
+171101 23:44:01 [Note] Event Scheduler: Loaded 0 events
+171101 23:44:01 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.48-log'  socket: ''  port: 33067  MySQL Community Server (GPL)
+171102  0:01:49 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: Normal shutdown
+
+171102  0:01:49 [Note] Event Scheduler: Purging the queue. 0 events
+171102  0:01:49  InnoDB: Starting shutdown...
+171102  0:01:50  InnoDB: Shutdown completed; log sequence number 193375373
+171102  0:01:50 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: Shutdown complete
+
+171102  8:37:26 [Note] Plugin 'FEDERATED' is disabled.
+171102  8:37:27 InnoDB: The InnoDB memory heap is disabled
+171102  8:37:27 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+171102  8:37:27 InnoDB: Compressed tables use zlib 1.2.3
+171102  8:37:27 InnoDB: Initializing buffer pool, size = 512.0M
+171102  8:37:27 InnoDB: Completed initialization of buffer pool
+171102  8:37:27 InnoDB: highest supported file format is Barracuda.
+171102  8:37:31  InnoDB: Waiting for the background threads to start
+171102  8:37:32 InnoDB: 5.5.48 started; log sequence number 193375373
+171102  8:37:32 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33067
+171102  8:37:32 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+171102  8:37:32 [Note] Server socket created on IP: '0.0.0.0'.
+171102  8:37:33 [Note] Event Scheduler: Loaded 0 events
+171102  8:37:33 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.48-log'  socket: ''  port: 33067  MySQL Community Server (GPL)
+171102  9:23:59 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: Normal shutdown
+
+171102  9:23:59 [Note] Event Scheduler: Purging the queue. 0 events
+171102  9:23:59  InnoDB: Starting shutdown...
+171102  9:24:00  InnoDB: Shutdown completed; log sequence number 193531603
+171102  9:24:00 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: Shutdown complete
+
+171106 15:19:51 [Note] Plugin 'FEDERATED' is disabled.
+171106 15:19:51 InnoDB: The InnoDB memory heap is disabled
+171106 15:19:51 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+171106 15:19:51 InnoDB: Compressed tables use zlib 1.2.3
+171106 15:19:51 InnoDB: Initializing buffer pool, size = 512.0M
+171106 15:19:51 InnoDB: Completed initialization of buffer pool
+171106 15:19:51 InnoDB: highest supported file format is Barracuda.
+171106 15:19:58  InnoDB: Waiting for the background threads to start
+171106 15:19:59 InnoDB: 5.5.48 started; log sequence number 193531603
+171106 15:19:59 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33067
+171106 15:19:59 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+171106 15:19:59 [Note] Server socket created on IP: '0.0.0.0'.
+171106 15:20:01 [Note] Event Scheduler: Loaded 0 events
+171106 15:20:01 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.48-log'  socket: ''  port: 33067  MySQL Community Server (GPL)
