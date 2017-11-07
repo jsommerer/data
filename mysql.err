@@ -639,3 +639,32 @@ Version: '5.5.48-log'  socket: ''  port: 33067  MySQL Community Server (GPL)
 171106 15:20:01 [Note] Event Scheduler: Loaded 0 events
 171106 15:20:01 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: ready for connections.
 Version: '5.5.48-log'  socket: ''  port: 33067  MySQL Community Server (GPL)
+171106 16:11:52 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: Normal shutdown
+
+171106 16:11:52 [Note] Event Scheduler: Purging the queue. 0 events
+171106 16:11:52  InnoDB: Starting shutdown...
+171106 16:11:54  InnoDB: Shutdown completed; log sequence number 193782802
+171106 16:11:54 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: Shutdown complete
+
+171107 13:39:17 [Note] Plugin 'FEDERATED' is disabled.
+171107 13:39:18 InnoDB: The InnoDB memory heap is disabled
+171107 13:39:18 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+171107 13:39:18 InnoDB: Compressed tables use zlib 1.2.3
+171107 13:39:18 InnoDB: Initializing buffer pool, size = 512.0M
+171107 13:39:18 InnoDB: Completed initialization of buffer pool
+171107 13:39:18 InnoDB: highest supported file format is Barracuda.
+171107 13:39:20  InnoDB: Waiting for the background threads to start
+171107 13:39:21 InnoDB: 5.5.48 started; log sequence number 193782802
+171107 13:39:21 [Note] Server hostname (bind-address): '0.0.0.0'; port: 33067
+171107 13:39:21 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+171107 13:39:21 [Note] Server socket created on IP: '0.0.0.0'.
+171107 13:39:23 [Note] Event Scheduler: Loaded 0 events
+171107 13:39:23 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.48-log'  socket: ''  port: 33067  MySQL Community Server (GPL)
+171107 16:04:45 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: Normal shutdown
+
+171107 16:04:45 [Note] Event Scheduler: Purging the queue. 0 events
+171107 16:04:45  InnoDB: Starting shutdown...
+171107 16:04:46  InnoDB: Shutdown completed; log sequence number 198699086
+171107 16:04:46 [Note] C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe: Shutdown complete
+
