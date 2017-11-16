@@ -251,3 +251,62 @@ Time                 Id Command    Argument
 C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe, Version: 5.5.48-log (MySQL Community Server (GPL)). started with:
 TCP Port: 33067, Named Pipe: (null)
 Time                 Id Command    Argument
+C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe, Version: 5.5.48-log (MySQL Community Server (GPL)). started with:
+TCP Port: 33067, Named Pipe: (null)
+Time                 Id Command    Argument
+C:\Program Files (x86)\DevDesktop\mysql\bin\mysqld.exe, Version: 5.5.48-log (MySQL Community Server (GPL)). started with:
+TCP Port: 33067, Named Pipe: (null)
+Time                 Id Command    Argument
+# Time: 171115 21:42:16
+# User@Host: drupaluser[drupaluser] @ localhost [127.0.0.1]
+# Query_time: 1.221864  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+use buymo;
+SET timestamp=1510803736;
+CREATE TABLE field_data_field_compnaylogos (
+`entity_type` VARCHAR(128) NOT NULL DEFAULT '' COMMENT 'The entity type this data is attached to', 
+`bundle` VARCHAR(128) NOT NULL DEFAULT '' COMMENT 'The field instance bundle to which this row belongs, used when deleting a field instance', 
+`deleted` TINYINT NOT NULL DEFAULT 0 COMMENT 'A boolean indicating whether this data item has been deleted', 
+`entity_id` INT unsigned NOT NULL COMMENT 'The entity id this data is attached to', 
+`revision_id` INT unsigned NULL DEFAULT NULL COMMENT 'The entity revision id this data is attached to, or NULL if the entity type is not versioned', 
+`language` VARCHAR(32) NOT NULL DEFAULT '' COMMENT 'The language for this data item.', 
+`delta` INT unsigned NOT NULL COMMENT 'The sequence number for this data item, used for multi-value fields', 
+`field_compnaylogos_fid` INT unsigned NULL DEFAULT NULL COMMENT 'The file_managed.fid being referenced in this field.', 
+`field_compnaylogos_alt` VARCHAR(512) NULL DEFAULT NULL COMMENT 'Alternative image text, for the image’s ’alt’ attribute.', 
+`field_compnaylogos_title` VARCHAR(1024) NULL DEFAULT NULL COMMENT 'Image title text, for the image’s ’title’ attribute.', 
+`field_compnaylogos_width` INT unsigned DEFAULT NULL COMMENT 'The width of the image in pixels.', 
+`field_compnaylogos_height` INT unsigned DEFAULT NULL COMMENT 'The height of the image in pixels.', 
+PRIMARY KEY (`entity_type`, `entity_id`, `deleted`, `delta`, `language`), 
+INDEX `entity_type` (`entity_type`), 
+INDEX `bundle` (`bundle`), 
+INDEX `deleted` (`deleted`), 
+INDEX `entity_id` (`entity_id`), 
+INDEX `revision_id` (`revision_id`), 
+INDEX `language` (`language`), 
+INDEX `field_compnaylogos_fid` (`field_compnaylogos_fid`)
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COMMENT 'Data storage for field 7 (field_compnaylogos)';
+# Time: 171115 21:42:27
+# User@Host: drupaluser[drupaluser] @ localhost [127.0.0.1]
+# Query_time: 1.049054  Lock_time: 0.001003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1510803747;
+CREATE TABLE field_data_field_compnaylogos (
+`entity_type` VARCHAR(128) NOT NULL DEFAULT '' COMMENT 'The entity type this data is attached to', 
+`bundle` VARCHAR(128) NOT NULL DEFAULT '' COMMENT 'The field instance bundle to which this row belongs, used when deleting a field instance', 
+`deleted` TINYINT NOT NULL DEFAULT 0 COMMENT 'A boolean indicating whether this data item has been deleted', 
+`entity_id` INT unsigned NOT NULL COMMENT 'The entity id this data is attached to', 
+`revision_id` INT unsigned NULL DEFAULT NULL COMMENT 'The entity revision id this data is attached to, or NULL if the entity type is not versioned', 
+`language` VARCHAR(32) NOT NULL DEFAULT '' COMMENT 'The language for this data item.', 
+`delta` INT unsigned NOT NULL COMMENT 'The sequence number for this data item, used for multi-value fields', 
+`field_compnaylogos_fid` INT unsigned NULL DEFAULT NULL COMMENT 'The file_managed.fid being referenced in this field.', 
+`field_compnaylogos_alt` VARCHAR(512) NULL DEFAULT NULL COMMENT 'Alternative image text, for the image’s ’alt’ attribute.', 
+`field_compnaylogos_title` VARCHAR(1024) NULL DEFAULT NULL COMMENT 'Image title text, for the image’s ’title’ attribute.', 
+`field_compnaylogos_width` INT unsigned DEFAULT NULL COMMENT 'The width of the image in pixels.', 
+`field_compnaylogos_height` INT unsigned DEFAULT NULL COMMENT 'The height of the image in pixels.', 
+PRIMARY KEY (`entity_type`, `entity_id`, `deleted`, `delta`, `language`), 
+INDEX `entity_type` (`entity_type`), 
+INDEX `bundle` (`bundle`), 
+INDEX `deleted` (`deleted`), 
+INDEX `entity_id` (`entity_id`), 
+INDEX `revision_id` (`revision_id`), 
+INDEX `language` (`language`), 
+INDEX `field_compnaylogos_fid` (`field_compnaylogos_fid`)
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8 COMMENT 'Data storage for field 7 (field_compnaylogos)';
